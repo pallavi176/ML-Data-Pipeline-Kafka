@@ -87,3 +87,10 @@ Run docker image
 docker run -it -v $(pwd)/logs:/logs  --env-file=$(pwd)/.env data-pipeline:lts
 ```
 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pallavi176/ML-Data-Pipeline-Kafka.git
+git push -u origin main
+
